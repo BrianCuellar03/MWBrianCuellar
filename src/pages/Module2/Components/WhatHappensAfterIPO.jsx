@@ -1,4 +1,3 @@
-// src/modules/WhatHappensAfterIPO.jsx
 import React from "react";
 import SectionWrapperModule2 from "@/components/ui/SectionWrapper_HoverCard/SectionWrapperModule2.jsx";
 import HoverCardForModuleInfo from "@/components/ui/SectionWrapper_HoverCard/hovercard-for-module.jsx";
@@ -36,45 +35,54 @@ const WhatHappensAfterIPO = () => {
         <SectionWrapperModule2 className="what-happens-after-ipo">
             <div className="w-full">
                 <h2 className="text-4xl font-semibold mb-6 text-center">What Happens After the IPO?</h2>
-                <p className="mb-6 text-lg text-gray-700 dark:text-gray-300">
-                    Imagine this: A company has just gone through its IPO, marking its transition from private to public ownership. Think of it like a small bakery that’s grown into a franchise. Now, instead of selling pastries only to local customers, the bakery offers ownership shares to the public, allowing anyone to invest in its success.
-                </p>
-                <p className="mb-6 text-lg text-gray-700 dark:text-gray-300">
-                    At this stage, the shares move into what’s called the primary market. This is where the company sells its shares directly to investors, much like the bakery handing out shares at its grand opening to raise funds for new equipment and expansion. But the excitement doesn’t stop there.
-                </p>
-                <HoverCardForModuleInfo title="What is the Primary Market?">
-                    content="The primary market is the first phase where a company sells shares directly to investors, raising funds for growth and new opportunities."
-                </HoverCardForModuleInfo>
 
-                <p className="mb-6 text-lg text-gray-700 dark:text-gray-300">
-                    After the grand opening, the shares begin trading in the secondary market. This is where the magic of the stock market comes to life—investors start buying and selling shares amongst themselves. It’s like the bakery’s loyal customers now trading recipes or tips, with the bakery itself no longer directly involved.
-                </p>
-                <HoverCardForModuleInfo title= "What is the Secondary Market?">
-                    The secondary market is where shares are traded among investors after the IPO. It’s a space where
-                    stock values are shaped by market forces."
-                </HoverCardForModuleInfo>
+                {/* Primary Market Section */}
+                <div className="mb-10">
+                    <h3 className="text-2xl font-medium mb-4">The Primary Market</h3>
+                    <p className="mb-6 text-lg text-gray-700 dark:text-gray-300">
+                        After a company completes its IPO, it transitions from private to public ownership, making its shares available for investors to buy.
+                        In this first stage, called the primary market, companies raise funds directly by selling shares to investors.
+                        Think of it as a bakery's grand opening, where customers can purchase special packages to support its growth.
+                    </p>
+                    <HoverCardForModuleInfo title="What is the Primary Market?">
+                        The primary market is where companies sell shares directly to investors for the first time, raising funds for growth and expansion.
+                    </HoverCardForModuleInfo>
+                </div>
 
-                <p className="mb-6 text-lg text-gray-700 dark:text-gray-300">
-                    In the secondary market, stock prices are influenced by countless factors—how well the bakery (or company) is performing, whether a new competitor enters the scene, or even shifts in customer preferences. It’s a dynamic environment driven by supply and demand, where prices fluctuate based on what buyers and sellers think the shares are worth.
-                </p>
-                <HoverCardForModuleInfo title="Factors That Can Drive Stock Prices">
-                    Stock prices are influenced by a variety of factors that extend beyond simple supply and demand.
-                    Key drivers include the company's financial performance, such as revenue and profit growth, which
-                    signal stability or potential for expansion. Broader economic indicators, like inflation rates or
-                    changes in consumer spending, can also affect investor confidence and stock valuations.
-                    Market trends, such as industry-specific developments or competitor actions, play a significant
-                    role in shaping sentiment. Additionally, external factors like political events, regulatory changes,
-                    and global incidents (e.g., natural disasters or pandemics) can ripple through the market, impacting
-                    stock prices. Lastly, investor behavior, driven by emotions like fear or optimism, often causes prices
-                    to rise or fall unpredictably, reflecting the collective mood of the market. For the factors that can
-                    drive stock prices, there are so many variables at play. The goal of this explanation is to provide
-                    an initial understanding of these forces, helping you see how interconnected decisions, events, and
-                    emotions shape the financial market.
+                {/* Secondary Market Section */}
+                <div className="mb-10">
+                    <h3 className="text-2xl font-medium mb-4">The Secondary Market</h3>
+                    <p className="mb-6 text-lg text-gray-700 dark:text-gray-300">
+                        After the primary market phase, shares enter the secondary market. Here, investors trade shares among themselves, without the company's direct involvement.
+                        It’s like customers of the bakery exchanging recipes or tips after the grand opening. This is where the stock market truly comes alive.
+                    </p>
+                    <HoverCardForModuleInfo title="What is the Secondary Market?">
+                        The secondary market is where shares are traded among investors after the IPO. Prices here are shaped by market forces such as demand, investor sentiment, and broader trends.
+                    </HoverCardForModuleInfo>
+                </div>
 
-                </HoverCardForModuleInfo>
-                <p className="mb-6 text-lg text-gray-700 dark:text-gray-300">
-                    Understanding what happens after an IPO helps you see the bigger picture of the stock market. It’s not just about companies raising funds; it’s about how investors shape the market’s perception of those companies over time. This interplay between buyers and sellers creates a vibrant, ever-changing ecosystem that reflects the heartbeat of the economy.
-                </p>
+                {/* Stock Price Fluctuations Section */}
+                <div className="mb-10">
+                    <h3 className="text-2xl font-medium mb-4">Stock Price Fluctuations</h3>
+                    <p className="mb-6 text-lg text-gray-700 dark:text-gray-300">
+                        In the secondary market, stock prices fluctuate based on various factors. Company performance, market trends, and investor behavior all contribute to price changes.
+                        For instance, strong earnings might increase demand and drive up prices, while broader economic uncertainty could have the opposite effect.
+                    </p>
+                    <HoverCardForModuleInfo title="Factors That Influence Stock Prices">
+                        Stock prices are influenced by company performance, economic indicators, market trends, and investor sentiment. These dynamics reflect how the market values a company over time.
+                    </HoverCardForModuleInfo>
+                </div>
+
+                {/* Conclusion Section */}
+                <div className="mb-10">
+                    <p className="mb-6 text-lg text-gray-700 dark:text-gray-300">
+                        Understanding what happens after an IPO illustrates how the stock market evolves beyond a company raising funds.
+                        It shows how investors collectively shape the perception and value of companies, turning the market into a constantly shifting reflection of economic forces.
+                    </p>
+                </div>
+
+                {/* Matching Game Section */}
+                <h3 className="text-2xl font-medium mb-4">Interactive Activity</h3>
                 <MatchingGame
                     title="Post-IPO Concepts Matcher"
                     description="Match the terms related to the post-IPO phase with their correct definitions."

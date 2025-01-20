@@ -18,7 +18,7 @@ const StockMarketOverview = () => {
 
                 {/* Integrated Sections*/}
                 <div className="mb-12">
-                    {/* 6.1 The Role of Stock Exchanges */}
+                    {/*The Role of Stock Exchanges */}
                     <section className="mb-8">
                         <h4 className="inline-block px-4 py-2 text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-4">
                             The Role of Stock Exchanges
@@ -43,7 +43,7 @@ const StockMarketOverview = () => {
                         </ul>
                     </section>
 
-                    {/* 6.2 Initial Public Offering (IPO) */}
+                    {/*Initial Public Offering (IPO) */}
                     <section className="mb-8">
                         <h4 className="inline-block px-4 py-2 text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-4">
                             Initial Public Offering (IPO)
@@ -63,7 +63,7 @@ const StockMarketOverview = () => {
                         </ol>
                     </section>
 
-                    {/* 6.3 Determining the Initial IPO Price */}
+                    {/* Determining the Initial IPO Price */}
                     <section className="mb-8">
                         <h4 className="inline-block px-4 py-2 text-2xl font-semibold text-gray-800 dark:text-gray-200  mb-4">
                             Determining the Initial IPO Price
@@ -85,7 +85,7 @@ const StockMarketOverview = () => {
                         </p>
                     </section>
 
-                    {/* 6.4 Supply and Demand in the Stock Market */}
+                    {/*Supply and Demand in the Stock Market */}
                     <section className="mb-8">
                         <h4 className="inline-block px-4 py-2 text-2xl font-semibold text-gray-800 dark:text-gray-200  mb-4">
                             Supply and Demand in the Stock Market
@@ -104,7 +104,7 @@ const StockMarketOverview = () => {
                         </p>
                     </section>
 
-                    {/* 6.5 Secondary Market Trading */}
+                    {/*Secondary Market Trading */}
                     <section className="mb-8">
                         <h4 className="inline-block px-4 py-2 text-2xl font-semibold text-gray-800 dark:text-gray-200  mb-4">
                             Secondary Market Trading

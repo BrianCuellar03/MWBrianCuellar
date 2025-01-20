@@ -1,10 +1,8 @@
-// src/modules/WhatAreIndicesAndInvestors.jsx
 import React from "react";
 import SectionWrapperModule2 from "@/components/ui/SectionWrapper_HoverCard/SectionWrapperModule2.jsx";
 import HoverCardForModuleInfo from "@/components/ui/SectionWrapper_HoverCard/hovercard-for-module.jsx";
 import MatchingGame from "@/components/ui/drag-and-drop/MatchingGame.jsx";
 
-// Updated terms and definitions
 const terms = [
     { id: "term-1", content: "Dow Jones Industrial Average (DJIA)" },
     { id: "term-2", content: "S&P 500" },
@@ -67,22 +65,21 @@ const WhatAreIndicesAndInvestors = () => {
                     without the need to analyze individual stocks one by one.
                 </p>
                 <HoverCardForModuleInfo title="Why Are Indices Important?">
-                    Indices act as benchmarks, showing how specific sectors or the overall market are performing. They help investors track progress and trends in a straightforward way."
+                    Indices act as benchmarks, showing how specific sectors or the overall market are performing. They help investors track progress and trends in a straightforward way.
                 </HoverCardForModuleInfo>
 
-
-                <h3 className="text-2xl font-medium mb-4">Who Are the Investors?</h3>
-                <p className="mb-6 text-lg text-gray-700 dark:text-gray-300">
-                    Now, let’s look at the people behind the market numbers—investors. They are the heartbeat of the secondary market,
-                    deciding every day what they’re willing to pay for shares and, in turn, determining stock prices. You’ve got
-                    retail investors, like someone checking their investment app during a coffee break, and institutional investors,
-                    like massive pension funds managing billions of dollars. Then there are speculators and traders who thrive on
-                    short-term opportunities, like surfers riding the waves of price changes. Every decision they make helps the
-                    market discover the true value of stocks.
-                </p>
-                <HoverCardForModuleInfo title="What Is Price Discovery?">
-                    Price discovery happens when investors’ buying and selling decisions establish the market value of a stock, based on what people think it’s worth right now."
-                </HoverCardForModuleInfo>
+                {/* Investors Section */}
+                <div className="mb-10">
+                    <h3 className="text-2xl font-medium mb-4">Who Are the Investors?</h3>
+                    <p className="mb-6 text-lg text-gray-700 dark:text-gray-300">
+                        Investors bring the stock market to life. Retail investors, like individuals managing personal portfolios, and institutional investors,
+                        such as pension funds and mutual funds, are key players. Speculators and traders focus on short-term opportunities, profiting from price
+                        changes. Together, these groups drive the market, balancing supply and demand to determine stock prices.
+                    </p>
+                    <HoverCardForModuleInfo title="What Is Price Discovery?">
+                        Price discovery is the process through which stock values are determined in the market. It’s influenced by supply, demand, and investor sentiment, showing what people think a stock is worth at any moment.
+                    </HoverCardForModuleInfo>
+                </div>
 
                 <h3 className="text-2xl font-medium mb-4">Why Does This Matter?</h3>
                 <p className="mb-6 text-lg text-gray-700 dark:text-gray-300">

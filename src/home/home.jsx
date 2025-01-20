@@ -43,17 +43,18 @@ const Home = () => {
             <section className="home-section py-20 flex items-center justify-center min-h-screen" id="home">
                 <div className="max-w-screen-xl mx-auto text-center">
                     <h1 className="text-3xl md:text-6xl font-bold mb-6 uppercase text-black dark:text-white">
-                        Demystifying Markets<br/>
+                        Interactive Learning For<br/>
                         <span className="block mt-2 text-green-600 dark:text-first-color">
-                              Through Interactive Learning
+                              Market Fundamentals
                              </span>
                     </h1>
 
 
                     <p className="text-base md:text-2xl mb-8 text-black dark:text-white">
-                        Explore the fundamentals of markets, from their basic principles to the dynamics
-                        of the stock market. Dive into interactive lessons and simulations to understand
-                        how markets operate and what the stock market is all about.
+                        Learn the foundational principles of supply, demand, and equilibrium, and use them as a lens to
+                        understand what the stock market is and how it operates. Dive into hands-on simulations and
+                        relatable examples to explore how markets work and gain a better understanding of the stock
+                        market's accessibility.
                     </p>
                     <div className="flex items-center justify-center">
                         <button
@@ -84,20 +85,24 @@ const Home = () => {
                     <h2 className="text-3xl font-bold text-title-color mb-4">Modules</h2>
                 </motion.div>
                 <p className="py-2">
-                    Explore two foundational modules designed to introduce you to the key concepts that pave
-                    the way to understanding the stock market.
+                    Explore two foundational modules designed to provide a clear lens for understanding the stock market
+                    and its underlying principles.
                 </p>
                 <p className="py-2">
-                    <strong>Module 1: Understanding Markets</strong>: Learn the basic principles of markets,
-                    including how supply and demand interact to influence prices, and the fundamental
-                    factors
-                    that drive market behavior.
+                    <strong>Module 1: Understanding Markets</strong>:
+                    Learn the fundamental concepts that drive market behavior, including supply, demand, and equilibrium.
+                    This module explores how these principles interact to influence prices and shape market dynamics.
+                    Through engaging simulations and relatable scenarios such as farmers representing sellers, chefs as
+                    buyers, and apples as the traded good, users can see how individual decisions and external factors,
+                    such as trends or economic shifts, impact the broader market.
                 </p>
                 <p className="py-2">
-                    <strong>Module 2: Understanding the Stock Market</strong>: Build on the basics by diving
-                                into how the stock market works, exploring concepts like stocks, shares, and how market
-                                dynamics impact trading and investing.
-                            </p>
+                    <strong>Module 2: Understanding the Stock Market</strong>: Build on the fundamentals by exploring what
+                    the stock market is, how it operates, and the basic cycle of the market. Learn about key concepts such
+                    as stocks, shares, and IPOs, and understand how market dynamics influence trading and investing.
+                    Through interactive drag and drop activities this module connects foundational principles to real-world
+                    scenarios, helping users understand the stock market’s accessibility and its role in modern economies.
+                </p>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                             <InteractiveCard
@@ -113,6 +118,23 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
+            {/* Disclaimer Section */}
+            <section className="disclaimer-section py-20 bg-gray-100 dark:bg-gray-800" id="disclaimer">
+                <div className="max-w-screen-xl mx-auto text-center px-6">
+                    <h2 className="text-3xl font-bold text-title-color mb-6 dark:text-white">Disclaimer</h2>
+                    <p className="text-base md:text-lg text-gray-700 dark:text-gray-300">
+                        This platform is designed for educational purposes only and is not a substitute for professional financial advice.
+                        The content is based on publicly available resources and personal insights, and while every effort has been made
+                        to ensure accuracy, interpretations of financial markets may vary. Users are encouraged to think critically and
+                        consult expert resources for a deeper understanding.
+                    </p>
+                    <p className="text-base md:text-lg text-gray-700 dark:text-gray-300 mt-4">
+                        Advanced trading topics, such as options and derivatives, are intentionally excluded to avoid promoting strategies
+                        that may cause financial harm without proper understanding. The focus is on foundational concepts such as supply,
+                        demand, and equilibrium to provide users with a starting point for exploring market dynamics.
+                    </p>
+                </div>
+            </section>
 
                 {/* Simulations Section */}
                 <section className="simulations-section py-20" id="simulations">

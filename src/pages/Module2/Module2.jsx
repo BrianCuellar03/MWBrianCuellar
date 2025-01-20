@@ -12,7 +12,7 @@ import BringingItAllTogether from "./Components/BringingitAllTogether.jsx";
 
 const Module2 = () => {
     return (
-        <div className="module2-container p-8 bg-background dark:bg-gray-900 text-foreground transition-colors duration-300 space-y-12">
+        <div className="module2-container p-8 bg-background dark:bg-black-color text-foreground transition-colors duration-300 space-y-12">
             <WelcomeOverview />
             <Introduction2/>
             <StartingWithStockExchanges/>

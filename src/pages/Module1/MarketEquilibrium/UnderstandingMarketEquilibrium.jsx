@@ -70,7 +70,7 @@ const MarketEquilibrium = () => {
                     apples nor a lack of supply.
                 </p>
 
-                {/* Small Conclusion */}
+                {/* Conclusion */}
                 <h3 className="text-2xl font-medium mb-4">Wrapping Up</h3>
                 <p className="mb-6 text-lg">
                     Market equilibrium is a helpful concept for understanding the interaction between supply and demand,

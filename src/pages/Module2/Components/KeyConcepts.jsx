@@ -1,5 +1,3 @@
-// src/modules/KeyConcepts.jsx
-
 import React from "react";
 import { HoverCard, HoverCardTrigger, HoverCardContent } from "@/components/ui/shadcncomponents/hover-card.jsx";
 
